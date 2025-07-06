@@ -7,3 +7,5 @@ nest-asyncio
 colorama
 smolagents
 google-generativeai
+mcp
+smolagents[mcp]

@@ -8,7 +8,7 @@ from colorama import Fore
 nest_asyncio.apply()
 
 model = LiteLLMModel(
-    model_id="gemini/gemini-1.5-flash"
+    model_id="gemini/gemini-2.0-flash"
 )
 
 async def run_hospital_workflow() -> None:

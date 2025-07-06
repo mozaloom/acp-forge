@@ -27,7 +27,7 @@ run-insurer-server:
 	python insurer_acp_server.py
 
 run-main:
-	python main.py
+	python mcp_acp_client.py
 
 run-hierarchical:
 	python hierarchical_client.py

@@ -32,15 +32,15 @@ A simple Python project demonstrating a multi-agent workflow for healthcare quer
 ## Usage
 Start servers (in separate terminals):
 ```bash
-make run-health-server
-make run-insurer-server
+make run-health-server   # Health ACP server
+make run-insurer-server  # Insurer ACP server
 ```
 
 Run workflows:
 ```bash
-make run-main            # Doctor workflow
-make run-hierarchical    # Hierarchical client
-make run-sequential      # Sequential client
+make run-main            # MCP doctor client workflow
+make run-hierarchical    # Hierarchical client workflow
+make run-sequential      # Sequential client workflow
 ```  
 Run tests:
 ```bash
